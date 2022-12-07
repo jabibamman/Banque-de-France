@@ -3,7 +3,7 @@ package com.bdf;
 import java.util.ArrayList;
 
 public class Banque {
-    ArrayList<Client> clients = new ArrayList<Client>();
+    private ArrayList<Client> clients = new ArrayList<Client>();
 
     public Banque() { }
 

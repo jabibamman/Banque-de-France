@@ -21,7 +21,7 @@ public class Client extends ArrayList<Client> {
         this.lesComptes = lesComptes;
     }
 
-// Getter & Setter
+    // Getter & Setter
     public ArrayList<Compte> getComptes() {
         return comptes;
     }
@@ -60,6 +60,7 @@ public class Client extends ArrayList<Client> {
     }
 
     public void ajouteCompte(Compte unCompte) {
+        System.out.println("Ajout du compte " + unCompte.getNum() + " au client " + this.nom + " " + this.prenom);
         comptes.add(unCompte);
     }
 
